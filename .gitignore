@@ -3,3 +3,6 @@ package-lock.json
 build
 dist
 *storybook.log
+storybook-static
+html_report
+visual_images_test
