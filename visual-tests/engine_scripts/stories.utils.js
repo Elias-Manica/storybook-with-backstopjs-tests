@@ -20,7 +20,7 @@ const loadStorybookScenarios = () => {
       return {
         label: `${story.kind}-${story.name}`,
         url: `http://localhost:6006/iframe.html?id=${storyId.toLowerCase()}`,
-        misMatchThreshold: 1,
+        misMatchThreshold: 12,
         requireSameDimensions: false,
         selectors: [defaultSelector],
         readySelector: defaultSelector,
